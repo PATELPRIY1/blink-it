@@ -1,0 +1,135 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1em;
+    padding: 1em;
+  }
+
+  .headerLeft {
+    justify-content: center;
+  }
+  .logo {
+    padding: 0.8em;
+  }
+
+  .headerAddress {
+    padding: 0.8em;
+  }
+
+  .headerAddress h3 {
+    font-size: 0.85rem;
+  }
+
+  .headerAddress p {
+    font-size: 0.6rem;
+  }
+
+  .searchBox button {
+    padding: 0.8em;
+  }
+
+  .headerBtn {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    margin-right: 0;
+    justify-content: center;
+    bottom: 2px;
+  }
+
+  .bannerSection {
+    display: none;
+  }
+
+  .orderBanner {
+    flex-direction: column;
+    padding: 0.5em;
+  }
+
+  .categorySectionItem {
+    flex-basis: 25%;
+  }
+
+  .productSection{
+    padding: 2em 1em 0;
+  }
+
+  .productItems{
+    flex-basis: 48%;
+    margin-bottom: .5em;
+  }
+
+  .footer-mid-row1{
+    padding: .8em;
+    flex-direction: column;
+  }
+
+  .FooterLinks__List li{
+    flex-basis: 50%;
+  }
+
+  .footer-mid-row3 p{
+    padding: 0 1em;
+  }
+
+  .footer-mid-row2{
+    gap: 1em;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+
+  header {
+    gap: 1em;
+    padding: 1em;
+  }
+
+  .logo,
+  .headerAddress {
+    padding: 1em;
+  }
+  
+  .headerAddress h3 {
+    margin-bottom: 0;
+  }
+
+  .headerBtn {
+    gap: 1em;
+    margin-right: 1em;
+  }
+
+  .searchBox button {
+    padding: 0.8em;
+  }
+
+  .categorySectionItem {
+    flex-basis: 20%;
+  }
+
+  .productSection{
+    padding: 2em 1.5em 0;
+  }
+
+  .productItems {
+    flex-basis: 32%;
+    margin-bottom: .5em;
+  }
+
+  .footer-mid-row1  {
+   padding: .8em;
+  }
+
+  .sLinks{
+    gap: .5em;
+  }
+
+  .footer-mid-row2{
+    gap: .5em;
+  }
+
+  .footer-mid-row3 p{
+    padding: 0 1em;
+  }
+}
