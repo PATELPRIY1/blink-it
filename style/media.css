@@ -79,19 +79,33 @@
   }
 }
 
-@media only screen and (max-width: 968px) {
+@media only screen and (min-width: 576px) and (max-width: 900px) {
 
   header {
-    gap: 1em;
-    padding: 1em;
+    padding: .8em;
+    gap: .5em;
   }
 
-  .logo,
+  .searchBox{
+    flex-basis: 40%;
+  }
+
+  .logo {
+    padding: .5em 0.5em;
+  }
+  
   .headerAddress {
-    padding: 1em;
+    flex-basis: 60%;
+    padding: .5em .5em;
   }
   
   .headerAddress h3 {
+    font-size: 0.85rem;
+    margin-bottom: 0;
+  }
+
+  .headerAddress p {
+    font-size: 0.6rem;
     margin-bottom: 0;
   }
 
